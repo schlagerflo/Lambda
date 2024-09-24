@@ -18,6 +18,8 @@ public class HalloJavamitForEach
         for (String s : list) {
             System.out.println(s);
         }
+
+        list.forEach(item -> System.out.println(item));
     }
 
 }
